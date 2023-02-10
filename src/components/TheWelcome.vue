@@ -14,7 +14,28 @@ import SupportIcon from "./icons/IconSupport.vue";
     </template>
     <template #heading>Better than a recipe</template>
 
-    This resource is more than a recipe. It's a toolbox + guide to help you bake a pizza.
+    This resource is more than a recipe. It's a toolbox + guide to help you bake a pizza at home.
+
+    The goal is to minimize the time spent thinking about pizza, while maximizing the flavor and ingrediant quality, so you can spend more time eating pizza.
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <EcosystemIcon />
+    </template>
+    <template #heading>Ecosystem</template>
+
+    It will eventually include:
+
+    <ul>
+      <li>Recommended Equipment</li>
+      <li>Ingrediant List</li>
+      <li>Dough Hydration Calculator</li>
+      <li>Baking wizard with easy to follow steps</li>
+      <li>Kitchen Timers</li>
+      <li>Notifications!</li>
+      <li>Personal Pizza Database to track your progress</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -32,7 +53,7 @@ import SupportIcon from "./icons/IconSupport.vue";
       </div>
       <div>
         <input type="checkbox" name="Pizza flour" id="pizza-flour">
-        <label for="pizza-flour">Pizza</label>
+        <label for="pizza-flour">Pizza flour</label>
       </div>
       <div>
         <input type="checkbox" name="Yeast" id="yeast">
@@ -48,23 +69,6 @@ import SupportIcon from "./icons/IconSupport.vue";
       </div>
     </form>
   </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <EcosystemIcon />
-    </template>
-    <template #heading>Ecosystem</template>
-
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If you need more
-    resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
-  </WelcomeItem>
-
   <WelcomeItem>
     <template #icon>
       <CommunityIcon />
@@ -85,9 +89,7 @@ import SupportIcon from "./icons/IconSupport.vue";
     </template>
     <template #heading>Support BakeA.Pizza</template>
 
-    As an independent project, Vue relies on community backing for its
-    sustainability. You can help us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    This project runs off of a passion for pizza. If you'd like to support the project, you can buy equipment off our amazon referral links, or donate money for pizza flour to your local foodbank.
   </WelcomeItem>
 </template>
 
