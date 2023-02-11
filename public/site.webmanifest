@@ -1,14 +1,14 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Bake A Pizza",
+    "short_name": "bakea.pizza",
     "icons": [
         {
-            "src": "https://barakplasma.github.io/bakeapizza/assets/android-chrome-192x192.png",
+            "src": "https://bakea.pizza/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "https://barakplasma.github.io/bakeapizza/assets/android-chrome-512x512.png",
+            "src": "https://bakea.pizza/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
